@@ -1,5 +1,5 @@
-# Custom-TextView
-A CustomTextView class which removes the need for applying the custom fonts for each TextView
+# Custom-EditText
+A CustomEditText class which removes the need for applying the custom fonts for each EditText
 
 ==============
 

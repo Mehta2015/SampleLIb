@@ -14,23 +14,23 @@ import android.widget.EditText;
 
  * 
  */
-public class FancyEditView extends EditText {
+public class FancyEditText extends EditText {
 
-	public FancyEditView(Context _Context) {
+	public FancyEditText(Context _Context) {
 
 		super(_Context);
 		init(null);
 		isInEditMode();
 	}
 
-	public FancyEditView(Context context, AttributeSet attrs) {
+	public FancyEditText(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		// TODO Auto-generated constructor stub
 		init(attrs);
 		isInEditMode();
 	}
 
-	public FancyEditView(Context context, AttributeSet attrs, int defStyle) {
+	public FancyEditText(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs,defStyle);
 		// TODO Auto-generated constructor stub
 		init(attrs);
